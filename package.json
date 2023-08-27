@@ -13,7 +13,7 @@
     "url": "https://github.com/Sepehrworklife/dataverz"
   },
   "author": "Sepehr Alimohamadi",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   },
