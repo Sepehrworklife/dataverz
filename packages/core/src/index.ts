@@ -1,5 +1,8 @@
 import bootstrap from "./bootstrap";
 import logger from "./logger";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 
 /** 
