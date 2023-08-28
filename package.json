@@ -16,7 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "dataverz-core": "file:packages/core",
-    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.6",
