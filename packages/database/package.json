@@ -1,0 +1,26 @@
+{
+  "name": "dataverz-database",
+  "version": "0.0.1",
+  "description": "Database of Dataverz",
+  "main": "src/index.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sepehrworklife/dataverz.git"
+  },
+  "author": "Sepehr Alimohamadi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "mongoose": "^7.4.5",
+    "dataverz-core": "file:../core"
+  },
+  "bugs": {
+    "url": "https://github.com/Sepehrworklife/dataverz/issues"
+  },
+  "homepage": "https://github.com/Sepehrworklife/dataverz#readme"
+}
