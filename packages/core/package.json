@@ -3,11 +3,7 @@
   "version": "0.0.1",
   "description": "Core of Dataverz",
   "main": "src/index.ts",
-  "scripts": {
-    "build": "tsc",
-    "develop": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "start": "npm run build && node dist/index.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/Sepehrworklife/dataverz"

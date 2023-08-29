@@ -1,20 +1,20 @@
-import bootstrap from "./bootstrap";
+import express from "express";
 import logger from "./logger";
 import dotenv from "dotenv";
 
 dotenv.config();
 
+interface Bootstrap {
+  port: number
+}
 
-/** 
- * It can be overide by APP_PORT env variable.
- * @const @default
- */
-const APP_PORT: number = 3000;
+function bootstrap({ port }: Bootstrap): express.Express {
+  const app = express();
+  app.listen(port, () => {
+    logger.info(`Server is running on port: ${port}.`)
+  });
+  return app;
+}
 
-const dataverz = bootstrap({
-  port: parseInt(process.env.APP_PORT || "") || APP_PORT,
-});
-
-export { logger };
-export default dataverz;
+export { logger, bootstrap };
 
