@@ -20,7 +20,7 @@ if (process.env.NODE_ENV !== "production") {
       winston.format.timestamp(),
       winston.format.colorize(),
       winston.format.printf(({ level, message, timestamp }) => (
-        `[${timestamp}] ${level}: ${message}`
+        `[${timestamp}][${level}]: ${message}`
       ))
     )
   }))
